@@ -12,7 +12,7 @@ mvn package
 java -cp $KOTLIN/LIB/kotlin-stdlib.jar -jar target/quickstart-email-kotlin-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-3. In the Nylas dashboard, create a new application and set the Google connector redirect URL to `http://localhost:4567/oauth/exchange`
+3. In the Nylas dashboard, create a new application and set the hosted auth callback URL to `http://localhost:4567/oauth/exchange`
 
 4. env variables
 
